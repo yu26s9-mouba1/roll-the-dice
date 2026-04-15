@@ -29,6 +29,35 @@ public class Dice {
         int sixCounter = 0;
         int sevenCounter = 0;
 
+        // Using a for loop to make the dice roll count 100 times
+
+        for (int i = 1; i <= 100; i++) {
+
+            roll1 = dice.roll();
+            roll2 = dice.roll();
+
+            int sum = roll1 + roll2;
+
+            //Now, I can print the result
+            System.out.println("Roll " + i + ": " + roll1 + " - " + roll2 + " Sum: " + sum);
+
+
+            //using if-else statements to create rules for the game making sure it makes specific counts
+            if (sum == 2) {
+                twoCounter++;
+            }
+            if (sum == 4) {
+                fourCounter++;
+            }
+            if (sum == 6) {
+                sixCounter++;
+            }
+            if (sum == 7) {
+                sevenCounter++;
+            }
+        }
+
+        //Finally, we can display results
 
 
 
@@ -36,7 +65,23 @@ public class Dice {
 
 
 
-    }
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+        }
 }
 
 
