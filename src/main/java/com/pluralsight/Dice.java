@@ -59,6 +59,14 @@ public class Dice {
 
         //Finally, we can display results
 
+        System.out.println("\n--- Results ---");
+        System.out.println("Number of times 2 was rolled: " + twoCounter);
+        System.out.println("Number of times 4 was rolled: " + fourCounter);
+        System.out.println("Number of times 6 was rolled: " + sixCounter);
+        System.out.println("Number of times 7 was rolled: " + sevenCounter);
+
+
+
 
 
 
@@ -82,7 +90,7 @@ public class Dice {
 
 
         }
-}
+
 
 
 
