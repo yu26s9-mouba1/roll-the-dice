@@ -16,6 +16,25 @@ public class Dice {
 
     public static void main(String[] args) {
 
+        //Creating the dice object
+        Dice dice = new Dice();
+
+        //Creating Variables for rolls
+        int roll1;
+        int roll2;
+
+        //Creaters variables as Counters
+        int twoCounter = 0;
+        int fourCounter = 0;
+        int sixCounter = 0;
+        int sevenCounter = 0;
+
+
+
+
+
+
+
 
     }
 }
